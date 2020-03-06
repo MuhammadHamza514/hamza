@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bedford</title>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/website.css">
+    <script>
+        $(document).ready(function(){
+        var t=setInterval(time,2000);
+});
+        var i=0;
+        function time(){
+          var array=new Array("url(image/img1.jpeg)","url(image/img2.jpeg)","url(image/img4.jpg)");
+        $("header").css("backgroundImage",array[i]);
+        i=i+1;
+        if(i>2){
+        i=0;  }
+      }
+        </script>
+
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+    <img src="image/img3.png" height="60px"; width="130px";></div>
+    <div>
+      <ul>
+        <b><li><a href="#">HOME</a></li></b>
+        <b><li><a href="#">ABOUT</a></li></b>
+        <b><li><a href="#">NEWS</a></li></b>
+          <b><li><a href="#">READ ME</a></li></b>
+          </ul>
+          </div>
+          <input type="button"  class="button" value="TAKE ACTION" onclick="location.href='form.html'"/>
+          <input type="button"  class="button2"value="LEARN MORE" onclick="location.href='#'"/>
+<div class="class1"><i>Sustainability</i></div>
+<br/>
+<div class="class2"><b><marquee behavior="scroll"direction="right">STARTS WITH YOU</marquee></b></div>
+                     </header>
+
+         <section class="class3"><font size ="6px">We conserve land through outreach, restoration, and research.</font>
+           <br/>
+           <br/>
+           <p style="color:grey;">Some of the Earth's greatest landscapes are threatened by increased road construction, oil<br/><br/> and gas exploration, and mining. We aim to protect these areas from inappropriate<br/></br> development, but we cannot achieve our goals alone. Find out how you can help.</p>
+           <p style="color:grey;"><i>All photography provided by </i> <span style="color:teal">Jared Chambers</p></span>
+<br/><br/><br/>
+<div class="class4"><img src="image/img1.jpeg"width="500px";></div>
+<div class="class5">
+  <br/><br/><br/><br/><br/>
+  <p style="color:darkgray">ABOUT</p>
+</div>
+  <div class="class6"style="color:dimgray">
+  <p>Find out about our organization,</p>
+  <p>mission, our methods, and the results of</p>
+  <p>our decades of advocacy.</p></div>
+  <input type="button"class="button3"value="LEARN MORE" onclick="location.href='#'"/>
+
+
+  <br/><br/><br/>
+  <div class="class7"><img src="image/img4.jpg"width="500px";></div>
+  <div class="class8">
+    <br/><br/><br/><br/><br/>
+    <p style="color:darkgray">TAKE ACTION</p>
+  </div>
+    <div class="class9"style="color:dimgray">
+    <p>Ready to take the next step? You can</p>
+    <p>become a contributor to our cause, or</p>
+    <p>participate yourself.</p></div>
+    <input type="button"class="button4"value="FIND OUT HOW" onclick="location.href='#'"/>
+
+</section>
+</body>
+<footer>
+  <section class="colorclass">
+    <div class="class10">
+      <h2>SUBSCRIBE</h2></div>
+      <div class="class11"><p>Sign up with your email address to receive news and updates.</p></div>
+      <input type="text"class="class12"style="color:gray"value="Email Address"/>
+      <input type="button"class="class13"style="color:white"value="SIGN UP"/>
+
+    </section>
+    <section class="colorclass2">
+      <div class="class14"><p>459 BROADWAY, NEW YORK(212) 555-0123TEMPLATE.PLACEHOLDER@GMAIL.COM</p></div>
+<div class="class15"style="color:dimgray"><p>Powered by <u>Squarespace</u></p></div>
+
+    </section>
+  </footer>
+</html>
